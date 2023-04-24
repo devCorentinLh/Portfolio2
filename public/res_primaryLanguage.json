@@ -1,0 +1,389 @@
+{
+  "basic_info": {
+    "description_header": "Bonjour",
+    "description": "👋 Je suis Corentin Lhermitte un développeur FullStack junior ayant acquis de solides compétences en développement web grace à la formation Développeur Web OpenClassrooms. J'ai acquis des connaissances approfondie sur diverses technologies telles que JavaScript, HTML5, CSS3, Sass, Node.js, Express, MongoDB, React, l'optimisation et le débogage. Je suis capable de créer des applications Web modernes et responsives en utilisant ses outils de développement. Je suis également compétent en matière d'optimisation et de débogage pour s'assurer que les applications fonctionnent de manière fluide et efficace. ",
+    "section_name": {
+      "about": "À Propos",
+      "projects": "Projets",
+      "skills": "Outils et technologies",
+      "experience": "Experiences"
+    }
+  },
+  "projects": [
+    {
+      "title": "Booki",
+      "category" :"Formation",
+      "startDate": "2022",
+      "description": "Booki est un site réaliser lors de ma formation OpenClassrooms, avec comme technologies de code imposé HTML5 et CSS, le site uniquement Front-end représente une maquette fourni d'un site d'hébergement.",
+      "images": [
+        "images/portfolio/booki/p1.jpg",
+        "images/portfolio/booki/p2.jpg",
+        "images/portfolio/booki/p3.jpg",
+        "images/portfolio/booki/p4.jpg",
+        "images/portfolio/booki/p5.jpg"
+      ],
+      "url": "https://devcorentinlh.github.io/Booki/Index.html",
+      "technologies": [
+        {
+          "class": "devicon-css3-plain",
+          "name": "CSS3"
+        },
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML5"
+        },
+        { "class": "devicon-github-original",
+          "name": "Github"
+        },
+        { "class": "devicon-figma-plain",
+            "name": "Figma"
+          }
+      ]
+    },
+    {
+      "title": "Kasa",
+      "category" :"Formation",
+      "startDate": "2023",
+      "description": "Kasa est un projet de la formation OpenClassrooms sur l'utilisation de React, uniquement en Front-end, le site est une application web de location immobilière avec React",
+      "images": [
+        "images/portfolio/kasa/p1.jpg",
+        "images/portfolio/kasa/p2.jpg",
+        "images/portfolio/kasa/p3.jpg",
+        "images/portfolio/kasa/p4.jpg",
+        "images/portfolio/kasa/p5.jpg",
+        "images/portfolio/kasa/p6.jpg"
+      ],
+      "url": "https://devcorentinlh.github.io/",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-sass-original",
+          "name": "Sass"
+        },
+        { "class": "devicon-github-original",
+          "name": "Github"
+        },
+        { "class": "devicon-npm-original-wordmark",
+          "name": "npm"
+        },
+        { "class": "devicon-figma-plain",
+            "name": "Figma"
+          }
+      ]
+    },{
+      "title": "Qwenta",
+      "category" :"Formation",
+      "startDate": "2023",
+      "description": "Le projet Qwenta est porté sur la plannification et la gestion du développement d'un site. J'ai utiliser des outils tels que Jira et Figma. J'ai également réaliser des présentations des spécifications techniques, de la plannification du projet et sur les solutions techniques.",
+      "images": [
+        "images/portfolio/qwenta/p1.jpg",
+        "images/portfolio/qwenta/p2.jpg",
+        "images/portfolio/qwenta/p3.jpg",
+        "images/portfolio/qwenta/p4.jpg",
+        "images/portfolio/qwenta/p5.jpg",
+        "images/portfolio/qwenta/p6.jpg"
+      ],
+      "technologies": [
+        {
+          "class": "devicon-jira-plain",
+          "name": "Jira"
+        },
+        { "class": "devicon-figma-plain",
+            "name": "Figma"
+          }
+      ]
+    },{
+      "title": "Nina Carducci",
+      "category" :"Formation",
+      "startDate": "2023",
+      "description": "Ce site a été le projet optimisation et débug, cela m'a permis d'utiliser lighthouse, wave et GTmetrix durant la formation OpenClassrooms. L'objectif était de résoudre un problème de galleries d'images, de rendre le site plus rapide, d'améliorer le SEO et d'améliorer l'accessibilité.",
+      "images": [
+        "images/portfolio/Carducci/p1.jpg",
+        "images/portfolio/Carducci/p2.jpg",
+        "images/portfolio/Carducci/p3.jpg",
+        "images/portfolio/Carducci/p4.jpg",
+        "images/portfolio/Carducci/p5.jpg",
+        "images/portfolio/Carducci/p6.jpg"
+      ],
+      "url": "https://devcorentinlh.github.io/NinaCarducci/",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML5"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "javascript"
+        },
+        { "class": "devicon-github-original",
+          "name": "Github"
+        },
+        { "class": "devicon-npm-original-wordmark",
+          "name": "npm"
+        }
+      ]
+    },{
+      "title": "Sophie Bluel",
+      "category" :"Formation",
+      "startDate": "2023",
+      "description": "Ce projet de formation a été réaliser en JavaScript d'après un Kanban fourni, notre objectif est d'ajouter la partie dynamique du site avec la page de connexion, le tri des projets, la modale de gestion des projets et le formulaire d'ajout de projets. ",
+      "images": [
+        "images/portfolio/bluel/p1.jpg",
+        "images/portfolio/bluel/p2.jpg",
+        "images/portfolio/bluel/p3.jpg",
+        "images/portfolio/bluel/p4.jpg",
+        "images/portfolio/bluel/p5.jpg"
+      ],
+      "url": "https://devcorentinlh.github.io/Sophie_Bluel/",
+      "technologies": [
+        {
+          "class": "devicon-html5-plain",
+          "name": "HTML5"
+        },
+        { "class": "devicon-github-original",
+          "name": "Github"
+        },
+        { "class": "devicon-javascript-plain",
+          "name": "javascript"
+        },
+        {
+          "class": "devicon-npm-original-wordmark",
+          "name": "npm"
+        },
+        { "class": "devicon-figma-plain",
+            "name": "Figma"
+          }
+      ]
+    },
+      {
+        "title": "Mon vieux grimoire",
+        "category" :"Formation",
+        "startDate": "2023",
+        "description": "Mon vieux grimoire est un site réalisé lors de ma Formation OpenClassrooms, avec comme technologies de code imposées React, Nodejs et l'utilisation de MongoDB, le site permet de partager un avis sur des livres entre différents utilisateurs grace à une évaluation sur 5 étoiles.",
+        "images": [
+          "images/portfolio/monvieuxgrimoire/p1.jpg",
+          "images/portfolio/monvieuxgrimoire/p2.jpg",
+          "images/portfolio/monvieuxgrimoire/p3.jpg",
+          "images/portfolio/monvieuxgrimoire/p4.jpg",
+          "images/portfolio/monvieuxgrimoire/p5.jpg",
+          "images/portfolio/monvieuxgrimoire/p6.jpg"
+        ],
+        "url": "https://github.com/devCorentinLh/Projet-7",
+        "technologies": [
+          {
+            "class": "devicon-nodejs-plain",
+            "name": "Node.js"
+          },
+          {
+            "class": "devicon-mongodb-plain",
+            "name": "MongoDB"
+          },
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          { "class": "devicon-github-original",
+            "name": "Github"
+          },
+          { "class": "devicon-npm-original-wordmark",
+            "name": "npm"
+          },
+          { "class": "devicon-express-original",
+            "name": "Express"
+          },
+          { "class": "devicon-figma-plain",
+            "name": "Figma"
+          }
+        ]
+      }
+    ],
+    "experience": [
+      {
+        "company": "OpenClassrooms",
+        "categories" :"Formation",
+        "title": "Developpeur Web",
+        "years": "12.2022 - actuellement",
+        "mainTech": [
+          "Formation"
+        ],
+        "technologies": [
+          "REST API",
+          "React",
+          "JavaScript",
+          "HTML5",
+          "CSS3",
+          "SASS",
+          "Node.js",
+          "Express",
+          "MongoDB",
+          "Figma",
+          "Jira",
+          "Visual Studio Code",
+          "NPM",
+          "FileZilla"
+        ]
+      },
+      {
+        "company": "Burger King Bourges & Montluçon",
+        "categories" :"CDI",
+        "title": "Directeur de restaurants",
+        "years": "08.2020 - 08.2022",
+        "mainTech": [
+          "CDI"
+        ],
+        "technologies": [
+          "Planning",
+          "Inventaire",
+          "Commandes",
+          "Recrutement",
+          "Gestion de projet",
+          "Gestion de stock",
+          "Gestion des équipes",
+          "Gestion des audits",
+          "Gestion de la marge"
+        ]
+      },
+      {
+        "company": "Twitch",
+        "mainTech": [
+          "Freelance"
+        ],
+        "categories" :"Freelance",
+        "title": "Stremeur",
+        "years": "02.2020 - 08.2020",
+        "technologies": [
+          "Stream sur Jeux vidéos"
+        ]
+      },
+      {
+        "company": "IFA Bourges",
+        "mainTech": [
+          "Formation"
+        ],
+        "categories" :"Formation",
+        "title": "BTS Gestion de la PME en Alternance",
+        "years": "08.2018 - 02.2020",
+        "technologies": [
+          "Planning",
+          "Inventaire",
+          "Commandes de fournitures",
+          "Recrutement",
+          "Gestion des ressources humaines",
+          "Gestion de stock",
+          "Formation",
+          "Suivi des heures de travail",
+          "Participation et notes des briefings et réunions CODIR"
+        ]
+      },
+      {
+        "company": "La Poste Vierzon & Bourges",
+        "mainTech": [
+          "Alternance"
+        ],
+        "categories" :"Alternance",
+        "title": "Assistant Ressources Humaines en Alternance",
+        "years": "08.2018 - 02.2020",
+        "technologies": [
+          "Planning",
+          "Inventaire",
+          "Commandes de fournitures",
+          "Recrutement",
+          "Gestion des ressources humaines",
+          "Gestion de stock",
+          "Formation",
+          "Suivi des heures de travail",
+          "Participation et notes des briefings et réunions CODIR"
+        ]
+      },
+      {
+        "company": "McDonald's Bourges Aéroport",
+        "mainTech": [
+          "CDI"
+        ],
+        "categories" :"CDI",
+        "title": "Directeur Adjoint",
+        "years": "11.2015 - 08.2018",
+        "technologies": [
+          "Planning",
+          "Inventaire",
+          "Commandes",
+          "Recrutement",
+          "Gestion de la Formation",
+          "Gestion de stock",
+          "Gestion des équipes",
+          "Gestion des audits"
+        ]
+      },
+      {
+        "company": "Woot'N'Mama",
+        "mainTech": [
+          "Freelance"
+        ],
+        "categories" :"Freelance",
+        "title": "Team Manager Smite",
+        "years": "04.2015 - 04.2015",
+        "technologies": [
+          "Gestion de l'équipe",
+          "Suivi des performances",
+          "Gestion des déplacements",
+          "Vainqueur de la GamerAssembly 2015 à Poitiers"
+        ]
+      },
+      {
+        "company": "Bouygues Telecom Bourges Oceania",
+        "mainTech": [
+          "CDD"
+        ],
+        "categories" :"CDD",
+        "title": "Téléconseiller",
+        "years": "08.2014 - 10.2014",
+        "technologies": [
+          "Gestion d'appels entrants",
+          "Gestion d'appels sortants",
+          "Service déménagement",
+          "Service forfait bloqués et prépayés",
+          "Acceuil téléphonique et vente"
+        ]
+      },
+      {
+        "company": "AB Formation",
+        "mainTech": [
+          "Formation"
+        ],
+        "categories" :"Formation",
+        "title": "Conseiller Relation Client à Distance",
+        "years": "10.2014 - 04.2015",
+        "technologies": [
+          "Gestion d'appels entrants",
+          "Gestion d'appels sortants",
+          "Prise de rendez-vous",
+          "Service forfait bloqués et prépayés",
+          "Acceuil téléphonique et vente",
+          "Démarchage téléphonique"
+        ]
+      },
+      {
+        "company": "Lycée Pierre Emile Martin Bourges",
+        "mainTech": [
+          "Formation"
+        ],
+        "categories" :"Formation",
+        "title": "Baccalauréat Professionnel Systèmes Electroniques Numériques",
+        "years": "11.2015 - 08.2018",
+        "technologies": [
+          "Option Télécommunications et Réseaux",
+          "HTML5 et CSS3",
+          "FileZilla",
+          "NPM",
+          "Visual Studio Code"
+        ]
+      }
+    ]
+  }

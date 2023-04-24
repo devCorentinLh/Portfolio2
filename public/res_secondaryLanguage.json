@@ -1,0 +1,389 @@
+{
+  "basic_info": {
+  "description_header": "Hello",
+  "description": "👋 I'm Corentin Lhermitte, a junior FullStack developer who has acquired solid skills in web development through the OpenClassrooms Web Developer program. I have gained in-depth knowledge of various technologies such as JavaScript, HTML5, CSS3, Sass, Node.js, Express, MongoDB, React, optimization, and debugging. I can create modern and responsive web applications using these development tools. I am also proficient in optimization and debugging to ensure that applications run smoothly and efficiently.",
+  "section_name": {
+  "about": "About",
+  "projects": "Projects",
+  "skills": "Tools and technologies",
+  "experience": "Experience"
+  }
+  },
+  "projects": [
+  {
+  "title": "Booki",
+  "category" :"Training",
+  "startDate": "2022",
+  "description": "Booki is a website I created during my OpenClassrooms training, using HTML5 and CSS as required code technologies. The website is only front-end and represents a provided hosting website mock-up.",
+  "images": [
+  "images/portfolio/booki/p1.jpg",
+  "images/portfolio/booki/p2.jpg",
+  "images/portfolio/booki/p3.jpg",
+  "images/portfolio/booki/p4.jpg",
+  "images/portfolio/booki/p5.jpg"
+  ],
+  "url": "https://devcorentinlh.github.io/Booki/Index.html",
+  "technologies": [
+  {
+  "class": "devicon-css3-plain",
+  "name": "CSS3"
+  },
+  {
+  "class": "devicon-html5-plain",
+  "name": "HTML5"
+  },
+  { "class": "devicon-github-original",
+  "name": "Github"
+  },
+  { "class": "devicon-figma-plain",
+  "name": "Figma"
+  }
+  ]
+  },
+  {
+  "title": "Kasa",
+  "category" :"Training",
+  "startDate": "2023",
+  "description": "Kasa is a project from the OpenClassrooms program on the use of React, solely in front-end. The website is a real estate rental web application made with React.",
+  "images": [
+  "images/portfolio/kasa/p1.jpg",
+  "images/portfolio/kasa/p2.jpg",
+  "images/portfolio/kasa/p3.jpg",
+  "images/portfolio/kasa/p4.jpg",
+  "images/portfolio/kasa/p5.jpg",
+  "images/portfolio/kasa/p6.jpg"
+  ],
+  "url": "https://devcorentinlh.github.io/",
+  "technologies": [
+  {
+  "class": "devicon-html5-plain",
+  "name": "HTML5"
+  },
+  {
+  "class": "devicon-react-original",
+  "name": "React"
+  },
+  {
+  "class": "devicon-sass-original",
+  "name": "Sass"
+  },
+  { "class": "devicon-github-original",
+  "name": "Github"
+  },
+  { "class": "devicon-npm-original-wordmark",
+  "name": "npm"
+  },
+  { "class": "devicon-figma-plain",
+  "name": "Figma"
+  }
+  ]
+    },
+    {
+      "title": "Qwenta",
+      "category" :"Training",
+      "startDate": "2023",
+      "description": "The Qwenta project focuses on the planning and management of website development. I used tools such as Jira and Figma. I also created presentations on technical specifications, project planning, and technical solutions.",
+      "images": [
+      "images/portfolio/qwenta/p1.jpg",
+      "images/portfolio/qwenta/p2.jpg",
+      "images/portfolio/qwenta/p3.jpg",
+      "images/portfolio/qwenta/p4.jpg",
+      "images/portfolio/qwenta/p5.jpg",
+      "images/portfolio/qwenta/p6.jpg"
+      ],
+      "technologies": [
+      {
+      "class": "devicon-jira-plain",
+      "name": "Jira"
+      },
+      { "class": "devicon-figma-plain",
+      "name": "Figma"
+      }
+      ]
+      },{
+      "title": "Nina Carducci",
+      "category" :"Training",
+      "startDate": "2023",
+      "description": "This site was a project for optimization and debugging, which allowed me to use Lighthouse, Wave, and GTmetrix during the OpenClassrooms training. The objective was to solve an issue with image galleries, make the website faster, improve SEO, and enhance accessibility.The objective was to solve an issue with image galleries, make the website faster, improve SEO, and enhance accessibility.",
+      "images": [
+      "images/portfolio/Carducci/p1.jpg",
+      "images/portfolio/Carducci/p2.jpg",
+      "images/portfolio/Carducci/p3.jpg",
+      "images/portfolio/Carducci/p4.jpg",
+      "images/portfolio/Carducci/p5.jpg",
+      "images/portfolio/Carducci/p6.jpg"
+      ],
+      "url": "https://devcorentinlh.github.io/NinaCarducci/",
+      "technologies": [
+      {
+      "class": "devicon-html5-plain",
+      "name": "HTML5"
+      },
+      {
+      "class": "devicon-javascript-plain",
+      "name": "JavaScript"
+      },
+      { "class": "devicon-github-original",
+      "name": "Github"
+      },
+      { "class": "devicon-npm-original-wordmark",
+      "name": "npm"
+      }
+      ]
+      },{
+      "title": "Sophie Bluel",
+      "category" :"Training",
+      "startDate": "2023",
+      "description": "This training project was developed in JavaScript based on a provided Kanban board. Our objective was to add the dynamic part of the site with the login page, project sorting, project management modal, and project addition form.",
+      "images": [
+      "images/portfolio/bluel/p1.jpg",
+      "images/portfolio/bluel/p2.jpg",
+      "images/portfolio/bluel/p3.jpg",
+      "images/portfolio/bluel/p4.jpg",
+      "images/portfolio/bluel/p5.jpg"
+      ],
+      "url": "https://devcorentinlh.github.io/Sophie_Bluel/",
+      "technologies": [
+      {
+      "class": "devicon-html5-plain",
+      "name": "HTML5"
+      },
+      { "class": "devicon-github-original",
+      "name": "Github"
+      },
+      { "class": "devicon-javascript-plain",
+      "name": "JavaScript"
+      },
+      {
+      "class": "devicon-npm-original-wordmark",
+      "name": "npm"
+      },
+      { "class": "devicon-figma-plain",
+      "name": "Figma"
+      }
+      ]
+      },
+    {
+      "title": "Mon Vieux Grimoire",
+      "category": "training",
+      "startDate": "2023",
+      "description": "Mon Vieux Grimoire is a site created during my OpenClassrooms training, with imposed code technologies React, Nodejs and the use of MongoDB. The site allows sharing book reviews among different users using a 5-star rating system.",
+      "images": [
+        "images/portfolio/monvieuxgrimoire/p1.jpg",
+        "images/portfolio/monvieuxgrimoire/p2.jpg",
+        "images/portfolio/monvieuxgrimoire/p3.jpg",
+        "images/portfolio/monvieuxgrimoire/p4.jpg",
+        "images/portfolio/monvieuxgrimoire/p5.jpg",
+        "images/portfolio/monvieuxgrimoire/p6.jpg"
+      ],
+      "url": "https://github.com/devCorentinLh/Projet-7",
+      "technologies": [
+        {
+          "class": "devicon-nodejs-plain",
+          "name": "Node.js"
+        },
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "MongoDB"
+        },
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        { "class": "devicon-github-original",
+          "name": "Github"
+        },
+        { "class": "devicon-npm-original-wordmark",
+          "name": "npm"
+        },
+        { "class": "devicon-express-original",
+          "name": "Express"
+        },
+        { "class": "devicon-figma-plain",
+          "name": "Figma"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "OpenClassrooms",
+      "categories" :"training",
+      "title": "Web Developer",
+      "years": "12.2022 - present",
+      "mainTech": [
+        "training"
+      ],
+      "technologies": [
+        "REST API",
+        "React",
+        "JavaScript",
+        "HTML5",
+        "CSS3",
+        "SASS",
+        "Node.js",
+        "Express",
+        "MongoDB",
+        "Figma",
+        "Jira",
+        "Visual Studio Code",
+        "NPM",
+        "FileZilla"
+      ]
+    },
+    {
+      "company": "Burger King Bourges & Montluçon",
+      "categories" :"Permanent contract",
+      "title": "Restaurants Director",
+      "years": "08.2020 - 08.2022",
+      "mainTech": [
+        "Permanent contract"
+      ],
+      "technologies": [
+        "Planning",
+        "Inventory",
+        "Orders",
+        "Recruitment",
+        "Project management",
+        "Inventory management",
+        "Team management",
+        "Audits management",
+        "Margin management"
+      ]
+    },
+    {
+      "company": "Twitch",
+      "mainTech": [
+        "Freelance"
+      ],
+      "categories" :"Freelance",
+      "title": "Streamer",
+      "years": "02.2020 - 08.2020",
+      "technologies": [
+        "Video game streaming"
+      ]
+    },
+    {
+      "company": "IFA Bourges",
+      "mainTech": [
+        "training"
+      ],
+      "categories" :"training",
+      "title": "BTS Management of SMEs in Alternation",
+      "years": "08.2018 - 02.2020",
+      "technologies": [
+        "Planning",
+        "Inventory",
+        "Supply orders",
+        "Recruitment",
+        "Human resources management",
+        "Inventory management",
+        "training",
+        "Tracking working hours",
+        "Participation and notes of CODIR briefings and meetings"
+      ]
+    },
+    {
+      "company": "La Poste Vierzon & Bourges",
+      "mainTech": [
+        "Alternation"
+      ],
+      "categories" :"Alternation",
+      "title": "Assistant Human Resources in Alternation",
+      "years": "08.2018 - 02.2020",
+      "technologies": [
+        "Planning",
+        "Inventory",
+        "Supply orders",
+        "Recruitment",
+        "Human resources management",
+        "Inventory management",
+        "training",
+        "Tracking working hours",
+        "Participation and notes of CODIR briefings and meetings"
+      ]
+    },
+    {
+      "company": "McDonald's Bourges Airport",
+      "mainTech": [
+        "Permanent contract"
+      ],
+      "categories" :"Permanent contract",
+      "title": "Assistant Manager",
+      "years": "11.2015 - 08.2018",
+      "technologies": [
+        "Planning",
+        "Inventory",
+        "Orders",
+        "Recruitment",
+        "Training management",
+        "Inventory management",
+        "Team management",
+        "Audits management"
+      ]
+    },
+    {
+      "company": "Woot'N'Mama",
+      "mainTech": [
+        "Freelance"
+      ],
+      "categories" :"Freelance",
+      "title": "Team Manager Smite",
+      "years": "04.2015 - 04.2015",
+      "technologies": [
+        "Team management",
+        "Performance monitoring",
+        "Travel management",
+        "Winner of the GamerAssembly 2015 in Poitiers"
+      ]
+    },{
+      "company": "Bouygues Telecom Bourges Oceania",
+      "mainTech": [
+      "fixed term contract"
+      ],
+      "categories": "fixed term contract",
+      "title": "Teleadvisor",
+      "years": "08.2014 - 10.2014",
+      "technologies": [
+      "Incoming call management",
+      "Outgoing call management",
+      "Moving service",
+      "Blocked and prepaid package service",
+      "Telephone reception and sales"
+      ]
+      },
+      {
+      "company": "AB training",
+      "mainTech": [
+      "training"
+      ],
+      "categories": "training",
+      "title": "Remote Customer Relationship Advisor",
+      "years": "10.2014 - 04.2015",
+      "technologies": [
+      "Incoming call management",
+      "Outgoing call management",
+      "Appointment scheduling",
+      "Blocked and prepaid package service",
+      "Telephone reception and sales",
+      "Telemarketing"
+      ]
+      },
+      {
+      "company": "Pierre Emile Martin High School Bourges",
+      "mainTech": [
+        "training"
+    ],
+      "categories": "training",
+      "title": "Professional Baccalaureate in Digital and Electronic Systems",
+      "years": "11.2015 - 08.2018",
+      "technologies": [
+      "Telecommunications and Networks Option",
+      "HTML5 et CSS3",
+      "FileZilla",
+      "NPM",
+      "Visual Studio Code"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,229 @@
+,
+      {
+        "company": "Burger King Montluçon",
+        "categories" :"CDI",
+        "title": "Directeur de restaurant",
+        "years": "08.2020 - 08.2022",
+        "competences": [
+          "Planning",
+          "Inventaire",
+          "Commandes",
+          "Recrutement",
+          "Gestion de projet",
+          "Gestion de stock",
+          "Gestion des équipes",
+          "Gestion des audits",
+          "Gestion de la marge"
+        ]
+      },
+      {
+        "company": "Twitch",
+        "categories" :"Freelance",
+        "title": "Stremeur",
+        "years": "02.2020 - 08.2020",
+        "competences": [
+          "Gestion de projet",
+          "Stream sur Jeux vidéos"
+        ]
+      },
+      {
+        "company": "IFA Bourges",
+        "categories" :"Formation",
+        "title": "BTS Gestion de la PME en Alternance",
+        "years": "08.2018 - 02.2020",
+        "competences": [
+          "Planning",
+          "Inventaire",
+          "Commandes de fournitures",
+          "Recrutement",
+          "Gestion des ressources humaines",
+          "Gestion de stock",
+          "Formation",
+          "Suivi des heures de travail",
+          "Participation et notes des briefings et réunions CODIR"
+        ]
+      },
+      {
+        "company": "La Poste Vierzon & Bourges",
+        "categories" :"Alternance",
+        "title": "Assistant Ressources Humaines en Alternance",
+        "years": "08.2018 - 02.2020",
+        "competences": [
+          "Planning",
+          "Inventaire",
+          "Commandes de fournitures",
+          "Recrutement",
+          "Gestion des ressources humaines",
+          "Gestion de stock",
+          "Formation",
+          "Suivi des heures de travail",
+          "Participation et notes des briefings et réunions CODIR"
+        ]
+      },
+      {
+        "company": "McDonald's Bourges Aéroport",
+        "categories" :"CDI",
+        "title": "Directeur Adjoint",
+        "years": "11.2015 - 08.2018",
+        "competences": [
+          "Planning",
+          "Inventaire",
+          "Commandes",
+          "Recrutement",
+          "Gestion de la formation",
+          "Gestion de stock",
+          "Gestion des équipes",
+          "Gestion des audits"
+        ]
+      },
+      {
+        "company": "Woot'N'Mama",
+        "categories" :"Freelance",
+        "title": "Team Manager Smite",
+        "years": "04.2015 - 04.2015",
+        "competences": [
+          "Gestion de l'équipe",
+          "Suivi des performances",
+          "Gestion des déplacements",
+          "Vainqueur de la GamerAssembly 2015 à Poitiers"
+        ]
+      },
+      {
+        "company": "Bouygues Telecom Bourges Oceania",
+        "categories" :"CDD",
+        "title": "Téléconseiller",
+        "years": "08.2014 - 10.2014",
+        "competences": [
+          "Gestion d'appels entrants",
+          "Gestion d'appels sortants",
+          "Service déménagement",
+          "Service forfait bloqués et prépayés",
+          "Acceuil téléphonique et vente"
+        ]
+      },
+      {
+        "company": "AB Formation",
+        "categories" :"Formation",
+        "title": "Formation Conseiller Relation Client à Distance",
+        "years": "10.2014 - 04.2015",
+        "competences": [
+          "Gestion d'appels entrants",
+          "Gestion d'appels sortants",
+          "Prise de rendez-vous",
+          "Service forfait bloqués et prépayés",
+          "Acceuil téléphonique et vente",
+          "Démarchage téléphonique"
+        ]
+      },
+      {
+        "company": "Lycée Pierre Emile Martin Bourges",
+        "categories" :"Formation",
+        "title": "Baccalauréat Professionnel Systèmes Electroniques Numériques",
+        "years": "11.2015 - 08.2018",
+        "competences": [
+          "Option Télécommunications et Réseaux"
+        ]
+      }
+
+
+
+      -------------------------------------------------
+
+
+      /* import React, { Component } from "react";
+import {
+VerticalTimeline,
+VerticalTimelineElement,
+} from "react-vertical-timeline-component";
+import "react-vertical-timeline-component/style.min.css";
+import Badge from "react-bootstrap/Badge";
+
+class Experience extends Component {
+render() {
+const { experience, basicInfo } = this.props.resumeData;
+const sectionName = basicInfo && basicInfo.experience;
+if (experience) {
+  var work = experience.map(function (work, i) {
+    const technologies = work.technologies;
+    const mainTechnologies = work.mainTech;
+
+    var mainTech = mainTechnologies.map((technology, i) => {
+      return (
+        <Badge pill className="main-badge mr-2 mb-2" key={i}>
+          {technology}
+        </Badge>
+      );
+    });
+    var tech = technologies.map((technology, i) => {
+      return (
+        <Badge pill className="experience-badge mr-2 mb-2" key={i}>
+          {technology}
+        </Badge>
+      );
+    });
+    return (
+      <VerticalTimelineElement
+        className="vertical-timeline-element--work"
+        date={work.years}
+        iconStyle={{
+          background: "#AE944F",
+          color: "#fff",
+          textAlign: "center",
+        }}
+        icon={<i className="fab fa-angular experience-icon"></i>}
+        key={i}
+      >
+        <div style={{ textAlign: "left", marginBottom: "4px" }}>
+          {mainTech}
+        </div>
+
+        <h3
+          className="vertical-timeline-element-title"
+          style={{ textAlign: "left" }}
+        >
+          {work.title}
+        </h3>
+        <h4
+          className="vertical-timeline-element-subtitle"
+          style={{ textAlign: "left" }}
+        >
+          {work.company}
+        </h4>
+        <div style={{ textAlign: "left", marginTop: "15px" }}>{tech}</div>
+      </VerticalTimelineElement>
+    );
+  });
+}
+
+return (
+  <section id="resume" className="pb-5">
+    <div className="col-md-12 mx-auto">
+      <div className="col-md-12">
+        <h1 className="section-title" style={{ color: "black" }}>
+          <span className="text-black" style={{ textAlign: "center" }}>
+            {sectionName}
+          </span>
+        </h1>
+      </div>
+    </div>
+    <div className="col-md-8 mx-auto">
+      <VerticalTimeline>
+        {work}
+        <VerticalTimelineElement
+          iconStyle={{
+            background: "#AE944F",
+            color: "#fff",
+            textAlign: "center",
+          }}
+          icon={
+            <i className="fas fa-hourglass-start mx-auto experience-icon"></i>
+          }
+        />
+      </VerticalTimeline>
+    </div>
+  </section>
+);
+}
+}
+
+export default Experience; */

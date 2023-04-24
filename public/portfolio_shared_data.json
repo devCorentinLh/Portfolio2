@@ -1,0 +1,103 @@
+{
+  "basic_info": {
+    "name": "Corentin Lhermitte",
+    "titles": [ "Junior FullStack Developer", "Developpeur FullStack Junior" ],
+    "social": [
+      {
+        "name": "github",
+        "url": "https://github.com/devCorentinLh",
+        "class": "fab fa-github"
+      },
+      {
+        "name": "linkedin",
+        "url": "https://www.linkedin.com/in/corentin-lhermitte",
+        "class": "fab fa-linkedin"
+      },
+      {
+        "name": "CV",
+        "url":"public/images/Corentin Lhermitte Web Dev.pdf",
+        "class": "fas fa-file-pdf"
+      }
+    ],
+    "image": "myProfile.jpg"
+  },
+  "skills": {
+    "icons": [
+      {
+        "name": "HTML 5",
+        "class": "devicon-html5-plain",
+        "level": "95"
+      },
+      {
+        "name": "CSS 3",
+        "class": "devicon-css3-plain",
+        "level": "90"
+      },
+      {
+        "name": "Sass",
+        "class": "devicon-sass-original",
+        "level": "60"
+      },
+      {
+        "name": "JavaScript",
+        "class": "devicon-javascript-plain",
+        "level": "90"
+      },
+      {
+        "name": "React",
+        "class": "devicon-react-plain",
+        "level": "95"
+      },
+      {
+        "name": "Express",
+        "class": "devicon-express-original",
+        "level": "90"
+      },
+      {
+        "name": "NodeJS",
+        "class": "devicon-nodejs-plain",
+        "level": "80"
+      },
+      {
+        "name": "MongoDB",
+        "class": "devicon-mongodb-plain",
+        "level": "90"
+      },
+      {
+        "name": "Canva",
+        "class": "devicon-canva-original",
+        "level": "80"
+      },
+      {
+        "name": "filezilla",
+        "class": "devicon-filezilla-plain",
+        "level": "80"
+      },
+      {
+        "name": "Figma",
+        "class": "devicon-figma-plain",
+        "level": "80"
+      },
+      {
+        "name": "Jira",
+        "class": "devicon-jira-plain",
+        "level": "40"
+      },
+      {
+        "name": "npm",
+        "class": "devicon-npm-original-wordmark",
+        "level": "90"
+      },
+      {
+        "name": "Visual Studio Code",
+        "class": "devicon-vscode-plain",
+        "level": "80"
+      },
+      {
+        "name": "Github",
+        "class": "devicon-github-plain",
+        "level": "90"
+      }
+    ]
+  }
+}
