@@ -7,10 +7,7 @@ import About from "./components/About";
 import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
-//import ContactForm from "./components/Contact";
-
 class App extends Component {
-
   constructor(props) {
     super();
     this.state = {
@@ -19,19 +16,17 @@ class App extends Component {
       sharedData: {},
     };
   }
-
   applyPickedLanguage(pickedLanguage, oppositeLangIconId) {
     this.swapCurrentlyActiveLanguage(oppositeLangIconId);
     document.documentElement.lang = pickedLanguage;
-    var resumePath =
+    let resumePath =
       document.documentElement.lang === window.$primaryLanguage
         ? `res_primaryLanguage.json`
         : `res_secondaryLanguage.json`;
     this.loadResumeFromPath(resumePath);
   }
-
   swapCurrentlyActiveLanguage(oppositeLangIconId) {
-    var pickedLangIconId =
+    let pickedLangIconId =
       oppositeLangIconId === window.$primaryLanguageIconId
         ? window.$secondaryLanguageIconId
         : window.$primaryLanguageIconId;
@@ -42,7 +37,6 @@ class App extends Component {
       .getElementById(pickedLangIconId)
       .setAttribute("filter", "brightness(40%)");
   }
-
   componentDidMount() {
     this.loadSharedData();
     this.applyPickedLanguage(
@@ -50,7 +44,6 @@ class App extends Component {
       window.$secondaryLanguageIconId
     );
   }
-
   loadResumeFromPath(path) {
     $.ajax({
       url: path,
@@ -64,7 +57,6 @@ class App extends Component {
       },
     });
   }
-
   loadSharedData() {
     $.ajax({
       url: `portfolio_shared_data.json`,
@@ -79,7 +71,6 @@ class App extends Component {
       },
     });
   }
-
   render() {
     return (
       <div>

@@ -44,10 +44,8 @@ header {
 	text-align: center;
 	overflow: hidden;
 	background-color: #e9d5a1;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
+		-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
 	padding-top: 150px;
 	padding-bottom: 0;
 }
@@ -458,10 +456,4 @@ footer a:focus {
 .social-links {
 	margin-top: 50px;
 	font-size: 22px;
-}
-@media (max-width: 360px) {
-	div.react-switch-handle, .react-switch-bg, .react-switch-bg, .react-switch-handle, #icon-switch, .react-switch {
-		display: none;
-		color:#e9d5a1;
-	}
 }
