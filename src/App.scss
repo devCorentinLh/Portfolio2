@@ -19,6 +19,9 @@ html {
 	height: 100%;
 	object-fit: contain;
 }
+.vertical-timeline-element-content .vertical-timeline-element-date, .vertical-timeline-element-content p {
+	font-size: 12px !important;
+}
 
 .title-container {
 	height: 50px;

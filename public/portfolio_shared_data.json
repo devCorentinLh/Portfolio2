@@ -6,17 +6,20 @@
       {
         "name": "github",
         "url": "https://github.com/devCorentinLh",
-        "class": "fab fa-github"
+        "class": "fab fa-github",
+        "text" : "Github"
       },
       {
         "name": "linkedin",
         "url": "https://www.linkedin.com/in/corentin-lhermitte",
-        "class": "fab fa-linkedin"
+        "class": "fab fa-linkedin",
+        "text" : "LinkedIn"
       },
       {
         "name": "CV",
         "url":"public/images/Corentin Lhermitte Web Dev.pdf",
-        "class": "fas fa-file-pdf"
+        "class": "fas fa-file-pdf",
+        "text" : "CV"
       }
     ],
     "image": "myProfile.jpg"
